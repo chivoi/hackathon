@@ -7,7 +7,7 @@ function DataTesting() {
 
     const [isLoading, data] = DataApi("/public/collection/v1/search?hasImages=true&departmentId=11&q=paint")
     // console.log(data)
-
+    const allTitles = [];
 
     return (
         <>

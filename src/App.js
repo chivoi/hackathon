@@ -3,9 +3,11 @@ import SearchBar from "./components/SearchBar";
 import Footer from "./components/Footer";
 
 function App() {
+
+
   return (
     <>
-      <SearchBar />
+      <SearchBar allTitles={}  />
       <DataTesting />
       <Footer />
     </>
